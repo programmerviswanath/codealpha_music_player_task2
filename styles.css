@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+}
+
+.music-player {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1ee128;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(253, 252, 252, 0.975);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#search-bar {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#playlist-container {
+    text-align: left;
+    margin: 20px 0;
+}
+
+#playlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+#playlist li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+#playlist li:hover {
+    background-color: #f0f0f0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+#volume-control {
+    margin-top: 20px;
+}
+
+#volume-control input {
+    width: 80%;
+}
